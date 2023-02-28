@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+  :root{
+    --primary-color:#f69eac;
+    --secondary-color:#653321;
+    --third-color:#4b4b4b;
+    --light:#efefef;
+  }
+
+body{
+    background-color: white;
+}
+  .font-bahuana{
+    font-family: 'Bahiana', cursive
+  }
+  
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  #header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+  }
+  .logo a{
+    font-size: 3rem;
+  }
+  #navlist{
+    display: flex;
+    gap: 30px;
+  }
+  
+
